@@ -9,8 +9,10 @@ then validates data integrity using an XOR checksum — a common technique
 in embedded firmware for detecting transmission errors.
 
 ## Packet Structure
+```
 [START1][START2][LENGTH][COMMAND][DATA...][CHECKSUM]
  0xAA    0x55     N        CMD    N byte    XOR
+```
 ## Skills Demonstrated
 - C structs and pointers
 - Bitwise operations (XOR checksum calculation)
