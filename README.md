@@ -18,7 +18,7 @@ in embedded firmware for detecting transmission errors.
 - Data integrity validation
 
 ## How to Run
-Compile with any C/C++ compiler and run the executable: g++ main.cpp -o parser
+Compile with any C compiler and run the executable: g++ main.cpp -o parser
 ./parser
 
 ## Example Output
